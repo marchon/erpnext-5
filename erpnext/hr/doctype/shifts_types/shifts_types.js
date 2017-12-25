@@ -28,4 +28,7 @@ frappe.ui.form.on('Shifts Types', {
                              }
                   });                
 	}
+        hours:function(frm){
+              msgprint("Hi");
+        }
 });
